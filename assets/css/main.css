@@ -710,8 +710,8 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--accent-color);
-  left: 0;
+/*   background: var(--accent-color);
+ */  left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
@@ -724,9 +724,9 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+/* .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
   padding: 120px 0 60px;
   display: flex;
@@ -834,7 +834,7 @@ section,
     font-size: 13px;
   }
 }
-
+ */
 
 .cta-btn-1 {
   background: var(--accent-color, #56b8e6); /* Usa un colore visibile di default */
@@ -871,7 +871,107 @@ section,
   background: rgba(0, 0, 0, 0.2); /* Rendi l'overlay più visibile */
 }
 
+/* -----------------------------------
+INDEX COSA FACCIAMO
+----------------------------------- */
 
+body{margin-top:20px;}
+
+/* Feature Box
+---------------------*/
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+}
+.feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #f25400;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  color: #20247b;
+  font-weight: 600;
+}
+.feature-box-1 p {
+  margin: 0;
+}
+.feature-box-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: #20247b;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1:hover {
+  top: -5px;
+}
+.feature-box-1:hover h5 {
+  color: #ffffff;
+}
+.feature-box-1:hover p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.feature-box-1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto;
+}
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.section-title {
+    padding-bottom: 45px;
+}
+.section-title h2 {
+    font-weight: 700;
+    color: #20247b;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #ffffff;
+    padding-left: 15px;
+}
+
+
+/* -----------------------------------
+INDEX COSA FACCIAMO FINE
+----------------------------------- */
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -880,7 +980,7 @@ section,
   -moz-user-select: none;
   user-select: none;
   margin: 25%;
-  background-color: #3c57f0;
+  background-color: z#3c57f0;
   font-family: var(--default-font);
   
 }
@@ -890,6 +990,7 @@ section,
     font-size: 3.5rem;
   }
 }
+
 
 
 
@@ -1097,6 +1198,48 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section Fine
 --------------------------------------------------------------*/
+
+/* -------------------------------------------------------------
+# METODO SEZIONE 4
+------------------------------------------------------------- */
+
+/* Centrare il contenuto delle colonne */
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrare orizzontalmente */
+  justify-content: center; /* Centrare verticalmente */
+  text-align: center; /* Centrare il testo */
+  min-height: 300px; /* Altezza minima per un layout migliore */
+}
+
+/* Stile per l'icona circolare */
+.icon-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Spazio tra l'icona e gli altri elementi */
+  background-color: #56B8E6; /* Colore di sfondo */
+  border-radius: 50%; /* Forma circolare */
+  margin: 20%;
+}
+
+/* Stile per l'icona */
+.icon-container i {
+  font-size: 40px; /* Dimensione dell'icona */
+  color: white; /* Colore dell'icona */
+}
+
+/* Pulsante */
+.btn {
+  margin-top: 10px; /* Spazio tra il pulsante e il testo */
+}
+
+/* -------------------------------------------------------------
+# METODO SEZIONE 4 FINE
+------------------------------------------------------------- */
 
 
 
