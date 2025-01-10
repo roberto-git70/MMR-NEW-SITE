@@ -150,7 +150,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
-}
+ }
 
 .header .logo {
   line-height: 1;
@@ -724,117 +724,272 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-/* .hero {
-  width: 100%;
-  min-height: 50vh;
-  position: relative;
-  padding: 120px 0 60px;
-  display: flex;
-  align-items: center;
-}
 
-@media (min-width: 1200px) {
-  .hero:after {
-    position: absolute;
-    content: "";
-    width: 44%;
-    background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 15%), color-mix(in srgb, var(--background-color), transparent 15%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
-    top: 0;
-    bottom: 0;
-    z-index: 2;
+.mb-6 {
+  margin-bottom: 4.5rem !important;
+}
+.mb-7 {
+  margin-bottom: 6rem !important;
+}
+.mb-8 {
+  margin-bottom: 7.5rem !important;
+}
+.mb-9 {
+  margin-bottom: 9rem !important;
+}
+.mb-10 {
+  margin-bottom: 10.5rem !important;
+}
+.py-6 {
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+.py-7 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+.py-8 {
+  padding-top: 7.5rem !important;
+  padding-bottom: 7.5rem !important;
+}
+.py-9 {
+  padding-top: 9rem !important;
+  padding-bottom: 9rem !important;
+}
+.py-10 {
+  padding-top: 10.5rem !important;
+  padding-bottom: 10.5rem !important;
+}
+.hcf-bp-center {
+  background-position: center !important;
+}
+.hcf-bs-cover {
+  background-size: cover !important;
+  
+}
+@media (min-width: 576px) {
+  .mb-sm-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .mb-sm-7 {
+    margin-bottom: 6rem !important;
+  }
+  .mb-sm-8 {
+    margin-bottom: 7.5rem !important;
+  }
+  .mb-sm-9 {
+    margin-bottom: 9rem !important;
+  }
+  .mb-sm-10 {
+    margin-bottom: 10.5rem !important;
+  }
+  .py-sm-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+  .py-sm-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .py-sm-8 {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+  .py-sm-9 {
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+  }
+  .py-sm-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
   }
 }
-
-.hero:before {
-  position: absolute;
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 40%);
-  inset: 0;
-  z-index: 2;
+@media (min-width: 768px) {
+  .mb-md-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .mb-md-7 {
+    margin-bottom: 6rem !important;
+  }
+  .mb-md-8 {
+    margin-bottom: 7.5rem !important;
+  }
+  .mb-md-9 {
+    margin-bottom: 9rem !important;
+  }
+  .mb-md-10 {
+    margin-bottom: 10.5rem !important;
+  }
+  .py-md-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+  .py-md-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .py-md-8 {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+  .py-md-9 {
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+  }
+  .py-md-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
+  }
 }
-
-.hero img {
-  position: absolute;
-  inset: 0;
+@media (min-width: 992px) {
+  .mb-lg-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .mb-lg-7 {
+    margin-bottom: 6rem !important;
+  }
+  .mb-lg-8 {
+    margin-bottom: 7.5rem !important;
+  }
+  .mb-lg-9 {
+    margin-bottom: 9rem !important;
+  }
+  .mb-lg-10 {
+    margin-bottom: 10.5rem !important;
+  }
+  .py-lg-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+  .py-lg-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .py-lg-8 {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+  .py-lg-9 {
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+  }
+  .py-lg-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .mb-xl-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .mb-xl-7 {
+    margin-bottom: 6rem !important;
+  }
+  .mb-xl-8 {
+    margin-bottom: 7.5rem !important;
+  }
+  .mb-xl-9 {
+    margin-bottom: 9rem !important;
+  }
+  .mb-xl-10 {
+    margin-bottom: 10.5rem !important;
+  }
+  .py-xl-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+  .py-xl-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .py-xl-8 {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+  .py-xl-9 {
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+  }
+  .py-xl-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  .mb-xxl-6 {
+    margin-bottom: 4.5rem !important;
+  }
+  .mb-xxl-7 {
+    margin-bottom: 6rem !important;
+  }
+  .mb-xxl-8 {
+    margin-bottom: 7.5rem !important;
+  }
+  .mb-xxl-9 {
+    margin-bottom: 9rem !important;
+  }
+  .mb-xxl-10 {
+    margin-bottom: 10.5rem !important;
+  }
+  .py-xxl-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+  .py-xxl-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .py-xxl-8 {
+    padding-top: 7.5rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+  .py-xxl-9 {
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+  }
+  .py-xxl-10 {
+    padding-top: 10.5rem !important;
+    padding-bottom: 10.5rem !important;
+  }
+}
+.hcf-overlay {
+  --hcf-overlay-opacity: 0.5;
+  --hcf-overlay-bg-color: var(--bs-black-rgb);
+  position: relative;
+}
+.hcf-overlay::after {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(
+    var(--hcf-overlay-bg-color),
+    var(--hcf-overlay-opacity)
+  );
+  z-index: 0;
+}
+.hcf-overlay > * {
+  position: relative;
   z-index: 1;
 }
-
-.hero .container,
-.hero .container-fluid {
-  z-index: 3;
-  position: relative;
+.hcf-transform {
+  transform: scale3d(1, 1, 1);
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+}
+.hcf-transform:hover {
+  transform: scale3d(1.02, 1.02, 1.02);
 }
 
-.hero h1 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 700;
-}
+/*--------------------------------------------------------------
+# Hero Section Fine
+--------------------------------------------------------------*/
 
-.hero blockquote {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  padding-left: 20px;
-  border-left: 2px solid var(--accent-color);
-  margin: 40px 0;
-}
 
-.hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-}
 
-.hero .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
-}
-
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: var(--default-color);
-  font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-  color: var(--default-color);
-}
-
-.hero .btn-watch-video:hover i {
-  color: var(--default-color);
-}
-
-@media (max-width: 640px) {
-  .hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 13px;
-  }
-}
- */
 
 .cta-btn-1 {
   background: var(--accent-color, #56b8e6); /* Usa un colore visibile di default */
@@ -875,7 +1030,7 @@ section,
 INDEX COSA FACCIAMO
 ----------------------------------- */
 
-body{margin-top:20px;}
+/* body{margin-top:20px;} */
 
 /* Feature Box
 ---------------------*/
@@ -1000,6 +1155,7 @@ INDEX COSA FACCIAMO FINE
 .why-us .img-bg {
   min-height: 500px;
   position: relative;
+  
 }
 
 .why-us .img-bg img {
@@ -1010,6 +1166,7 @@ INDEX COSA FACCIAMO FINE
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  border-radius: 5px;
 }
 
 .why-us .slides {
@@ -1360,7 +1517,6 @@ INDEX COSA FACCIAMO FINE
   margin-right: 15px;
  
 }
-
 
 
 /*--------------------------------------------------------------
