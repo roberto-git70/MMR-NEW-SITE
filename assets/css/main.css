@@ -62,7 +62,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #F8F7F7;
   font-family: var(--default-font);
 }
 
@@ -1237,7 +1237,7 @@ INDEX COSA FACCIAMO
   height: 70px;
   line-height: 70px;
   background: #f25400;
-  color: #ffffff;
+  color: #F2F2F2;
   text-align: center;
   border-radius: 50%;
   margin-bottom: 22px;
@@ -1418,6 +1418,48 @@ INDEX COSA FACCIAMO FINE
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-box .box {
+    background: #FFF;
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 40px 10px;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover {
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box-text {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.social-box .box-btn a {
+    color: #4183D7;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.social-box .fa {
+    color: #4183D7;
+}
+
+
+
+
+
+
 .services .service-item {
   position: relative;
   height: 100%;
@@ -1480,6 +1522,7 @@ INDEX COSA FACCIAMO FINE
   padding: 160px 0;
   position: relative;
   clip-path: inset(0);
+  margin-bottom: 2%;
 }
 
 .call-to-action img {
