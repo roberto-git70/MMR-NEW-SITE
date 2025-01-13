@@ -1636,6 +1636,7 @@ body {
   margin-right: 10px;
   font-size: 24px;
   line-height: 1;
+  color: #F25400;
 }
 
 .features .icon-list span {
@@ -1930,7 +1931,7 @@ background-color: #F8F7F7;;
 }
 
 .about .content ul i {
-  color: #df1529;
+  color: #F25400;
   font-size: 1.25rem;
   line-height: 1.2;
   margin-right: 0.5rem;
