@@ -726,6 +726,31 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 
+
+
+
+
+
+
+/* .breadcrumbs ol {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs li {
+  margin-right: 10px;
+}
+
+.breadcrumbs li.current {
+  font-weight: bold;
+}
+
+ */
+
+
+
 .mb-6 {
   margin-bottom: 4.5rem !important;
 }
