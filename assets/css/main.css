@@ -2478,7 +2478,7 @@ background-color: #F8F7F7;;
 }
 
 .contact .info-item i {
-  background: var(--accent-color);
+  background: #F25400;
   color: var(--contrast-color);
   font-size: 20px;
   width: 44px;
@@ -2534,7 +2534,7 @@ background-color: #F8F7F7;;
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #F25400;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -2542,7 +2542,7 @@ background-color: #F8F7F7;;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, #1e9241, transparent 20%);
 }
 
 /*--------------------------------------------------------------
