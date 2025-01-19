@@ -1438,7 +1438,7 @@ body {
 }
 
 .social-box .box:hover {
-   box-shadow: 0 0 6px #4183D7;
+   box-shadow: 0 0 6px ;
 }
 
 .social-box .box-text {
@@ -1448,13 +1448,13 @@ body {
 }
 
 .social-box .box-btn a {
-    color: #4183D7;
+    color: #FFC107;
     font-size: 16px;
     text-decoration: none;
 }
 
 .social-box .fa {
-    color: #4183D7;
+    color: #FFC107;
 }
 
 
@@ -1540,7 +1540,7 @@ body {
 
 .call-to-action:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1562,7 +1562,7 @@ body {
 }
 
 .call-to-action .cta-btn {
-  background: #56B8E6;
+  background: #FFC107;
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -1637,12 +1637,12 @@ body {
   margin-right: 10px;
   font-size: 24px;
   line-height: 1;
-  color: #F25400;
+  color: #FFC107;
 }
 
 .features .icon-list span {
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, (--default-color), transparent 20%);
 }
 
 .features .phone-wrap {
@@ -1694,7 +1694,7 @@ background-color: #F8F7F7;;
 
 .features .details .btn-get-started {
   color: var(--contrast-color);
-  background-color: #56B8E6;
+  background-color: #FFC107;
   font-family: var(--heading-font);
   display: inline-block;
   font-weight: 500;
@@ -1706,7 +1706,7 @@ background-color: #F8F7F7;;
 }
 
 .features .details .btn-get-started:hover {
-  background: color-mix(in srgb, #56B8E6, transparent 20%);
+  background: color-mix(in srgb, #FFC107, transparent 50%);
 }
 
 /* PROGRESS BAR */
@@ -1932,7 +1932,7 @@ background-color: #F8F7F7;;
 }
 
 .about .content ul i {
-  color: #F25400;
+  color: #FFC107;
   font-size: 1.25rem;
   line-height: 1.2;
   margin-right: 0.5rem;
