@@ -1562,7 +1562,7 @@ body {
 }
 
 .call-to-action .cta-btn {
-  background: #FFC107;
+  background: #fb8500;
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -1637,7 +1637,7 @@ body {
   margin-right: 10px;
   font-size: 24px;
   line-height: 1;
-  color: #FFC107;
+  color: #fb8500;
 }
 
 .features .icon-list span {
@@ -1694,7 +1694,7 @@ background-color: #F8F7F7;;
 
 .features .details .btn-get-started {
   color: var(--contrast-color);
-  background-color: #FFC107;
+  background-color: #fb8500;
   font-family: var(--heading-font);
   display: inline-block;
   font-weight: 500;
@@ -1706,10 +1706,15 @@ background-color: #F8F7F7;;
 }
 
 .features .details .btn-get-started:hover {
-  background: color-mix(in srgb, #FFC107, transparent 50%);
+  background: color-mix(in srgb, #fb8500, transparent 30%);
 }
 
 /* PROGRESS BAR */
+
+.my-custom-progress-bar {
+  background-color: #FB8500;
+}
+
 
 .g-6,
 .gx-6 {
@@ -1932,7 +1937,7 @@ background-color: #F8F7F7;;
 }
 
 .about .content ul i {
-  color: #FFC107;
+  color: #fb8500;
   font-size: 1.25rem;
   line-height: 1.2;
   margin-right: 0.5rem;
