@@ -81,12 +81,12 @@
   </header>
 
 
-  <!--  <main class="main"> -->
+  
   <!-- Hero Section -->
 
   <section class="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform"
     style="background-image: url('./assets/img/img-cover-home.png');">
-    <div class="container" style="padding-bottom: 15em;">
+    <div class="container" style="padding-bottom: 10em;">
       <div class="row justify-content-md-center">
         <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center" style="position: relative; top: 6em;">
           <h1 class="display-3 fw-bold mb-3" style="color: #F8F9FA;">MM&R</h1>
@@ -338,7 +338,7 @@
 
   <!-- Features Section -->
   <section id="features" class="features section">
-    <div class="container" style="background-color: #F8F7F7;">
+    <div class="container" data-aos="fade-up" data-aos-delay="100" style="background-color: #F8F7F7;">
       <div class="row">
         <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
           <h3 class="mb-0">Reattivo, Bello e </h3>
@@ -410,75 +410,56 @@
 
   <!-- PROGRESS BAR -->
 
-  <section class="bg-light py-5 py-xl-6">
-    <div class="container mb-5 mb-md-6">
-      <div class="row justify-content-md-center">
-        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-          <h2 class="mb-0" style="font-size: 38px; font-weight: 700;">Le nostre competenze</h2>
-          <p class="text-secondary mb-4 mb-md-5">I nostri livelli di competenza nelle varie fasi di sviluppo hanno
-            raggiunto negli anni risultati straordinari, così come riportiamo nel grafico che raccoglie il livello di
-            gradimento dei nostri clienti</p>
-          <hr class="w-50 mx-auto mb-0 text-secondary">
+  <section id="skills" class="skills">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+          <img src="assets/img/cards-5.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
         </div>
-      </div>
-    </div>
-    <div class="container overflow-hidden">
-      <div class="row justify-content-xl-center gy-3 gy-sm-4">
-        <div class="col-12 col-sm-6 col-xl-5">
-          <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-1">Progettazione</h3>
-            <p class="text-secondary fst-italic mb-4"></p>
+        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+          <h3>Le nostre competenze</h3>
+          <p class="fst-italic">
+            “I nostri livelli di competenza nelle varie fasi di sviluppo hanno raggiunto negli anni risultati straordinari, così come riportiamo nel grafico che raccoglie il livello di gradimento dei nostri clienti”
+          </p>
+
+          <div class="skills-content">
+
             <div class="progress">
-              <div class="progress-bar my-custom-progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar" style="width: 96%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="96">96%
+              <span class="skill">Progettazione e Pianificazione<i class="val">96%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="96" style="width: 96%;"></div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-xl-5">
-          <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-2">Grafica e Design</h3>
-            <p class="text-secondary fst-italic mb-4"></p>
+
             <div class="progress">
-              <div class="progress-bar my-custom-progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100%</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-xl-5">
-          <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-2">Web Marketing</h3>
-            <p class="text-secondary fst-italic mb-4"></p>
-            
-            <div class="progress">
-              <div class="progress-bar my-custom-progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="80">80%
-              
+              <span class="skill">Grafica e Design<i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-xl-5">
-          <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
-            <h3 class="fw-bold mb-2">Assistenza e Manutenzione</h3>
-            <p class="text-secondary fst-italic mb-4"></p>
 
             <div class="progress">
-              <div class="progress-bar my-custom-progress-bar progress-bar-striped progress-bar-animated"
-                role="progressbar" style="width: 97%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="97">97%</div>
+              <span class="skill">Web Marketing <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="85" style="width: 85%;"></div>
+              </div>
             </div>
 
-
-            <!--  <div class="progress" role="progressbar" aria-label="WordPress progress" aria-valuenow="95"
-                aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"; style="width: 97%;">97%
-                </div> -->
+            <div class="progress">
+              <span class="skill">Assistenza e Manutenzione<i class="val">97%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="97" style="width: 97%;"></div>
+              </div>
+            </div>
 
           </div>
+
         </div>
       </div>
+
     </div>
-    </div>
+  </section>
 
     <!-- PROGRESS BAR END-->
 
