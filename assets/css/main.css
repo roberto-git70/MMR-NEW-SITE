@@ -1448,9 +1448,23 @@ body {
 }
 
 .social-box .box-btn a {
-    color: #FFC107;
-    font-size: 16px;
-    text-decoration: none;
+    /* color: #0D2344; */
+    font-size: 17px;
+    /* text-decoration: none; */
+    font-weight: 500;
+    
+}
+
+.link-underline-info {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Spessore della linea */
+  text-underline-offset: 3px; /* Distanza tra il testo e la linea */
+  color: #0D2344;
+}
+
+.link-underline-info:hover {
+  text-decoration-thickness: 3px; /* Spessore maggiore al passaggio del mouse */
+  color: #0D2344;
 }
 
 .social-box .fa {
@@ -1637,7 +1651,7 @@ body {
   margin-right: 10px;
   font-size: 24px;
   line-height: 1;
-  color: #fb8500;
+  color: #F76C60;
 }
 
 .features .icon-list span {
@@ -1694,7 +1708,7 @@ background-color: #F8F7F7;;
 
 .features .details .btn-get-started {
   color: var(--contrast-color);
-  background-color: #fb8500;
+  background-color: #F76C60;
   font-family: var(--heading-font);
   display: inline-block;
   font-weight: 500;
@@ -1706,7 +1720,7 @@ background-color: #F8F7F7;;
 }
 
 .features .details .btn-get-started:hover {
-  background: color-mix(in srgb, #fb8500, transparent 30%);
+  background: color-mix(in srgb, #27517F, transparent 20%);
 }
 
 /* PROGRESS BAR */
@@ -1768,7 +1782,7 @@ background-color: #F8F7F7;;
   width: 1px;
   height: 10px;
   transition: width 1s ease;
-  background-color: #FAA649;
+  background-color: #F76C60;
 }
 
 /* PROGRESS BAR END */
@@ -1972,6 +1986,11 @@ background-color: #F8F7F7;;
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+/* .about .content{
+  margin-top: ;
+}
+ */
+
 .about .content h3 {
   font-size: 2rem;
   font-weight: 700;
