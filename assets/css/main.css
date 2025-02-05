@@ -583,7 +583,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: #f25400;
+  background-color: #F76C60;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -597,9 +597,8 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, #F25400, transparent 30%);
-  color: #F25400
-}
+  background-color: color-mix(in srgb, #000000, transparent 20%);
+  }
 
 .scroll-top.active {
   visibility: visible;
@@ -711,8 +710,8 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-/*   background: var(--accent-color);
- */  left: 0;
+/*   background: var(--accent-color);*/
+  left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
@@ -989,9 +988,6 @@ section,
 /*--------------------------------------------------------------
 # Hero Section Fine
 --------------------------------------------------------------*/
-
-
-
 
 .cta-btn-1 {
   background: var(--accent-color, #56b8e6); /* Usa un colore visibile di default */
@@ -1299,7 +1295,7 @@ INDEX COSA FACCIAMO
     color: #20247b;
     font-size: 45px;
     margin: 0 0 15px;
-    border-left: 5px solid #ffffff;
+    /* border-left: 5px solid #ffffff; */
     padding-left: 15px;
 }
 
@@ -1424,8 +1420,9 @@ INDEX COSA FACCIAMO FINE
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
+  
     background: #f2f2f2;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--default-font)
 }
 
 .social-box .box {
@@ -1452,14 +1449,11 @@ body {
     font-size: 17px;
     /* text-decoration: none; */
     font-weight: 500;
-    
 }
 
+
 .link-underline-info {
-  text-decoration: underline;
-  text-decoration-thickness: 2px; /* Spessore della linea */
-  text-underline-offset: 3px; /* Distanza tra il testo e la linea */
-  color: #0D2344;
+   color: #F76C60;
 }
 
 .link-underline-info:hover {
@@ -1467,14 +1461,10 @@ body {
   color: #0D2344;
 }
 
+
 .social-box .fa {
     color: #FFC107;
 }
-
-
-
-
-
 
 .services .service-item {
   position: relative;
@@ -1728,8 +1718,8 @@ background-color: #F8F7F7;;
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
-  font-family: "Poppins", sans-serif;
+  color: var(--heading-color);
+  font-family:  var(--heading-font);
 }
 
 .skills .content ul {
@@ -1782,7 +1772,7 @@ background-color: #F8F7F7;;
   width: 1px;
   height: 10px;
   transition: width 1s ease;
-  background-color: #F76C60;
+  background-color: #1B2F45;
 }
 
 /* PROGRESS BAR END */
@@ -1909,6 +1899,14 @@ background-color: #F8F7F7;;
 }
 
 
+/* Hero Banner Chi Siamo */
+
+
+.lead{
+  font-family: var(--default-font);
+  font-size: 18px
+}
+
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
@@ -2014,10 +2012,11 @@ background-color: #F8F7F7;;
 }
 
 .about .content ul i {
-  color: #fb8500;
+  color: #F76C60;
   font-size: 1.25rem;
   line-height: 1.2;
   margin-right: 0.5rem;
+  font-family: var(--default-font);
 }
 
 .fade-in {
