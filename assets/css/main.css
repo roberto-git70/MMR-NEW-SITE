@@ -1055,7 +1055,7 @@ INDEX COSA FACCIAMO
   margin: 0;
   width: 72px;
   height: 72px;
-  background: #FB8500;
+  background: #F76C60;
   color: #ffffff;
   border: 6px solid var(--contrast-color);
   border-radius: 50px;
@@ -1679,7 +1679,7 @@ body {
 
 .features .details {
   margin-top: 80px;
-  padding: 120px 0;
+  padding: 40px 0;
 /*   background-color: color-mix(in srgb, var(--default-color), transparent 97%);
  */
 background-color: #F8F7F7;;
@@ -1712,6 +1712,8 @@ background-color: #F8F7F7;;
 .features .details .btn-get-started:hover {
   background: color-mix(in srgb, #27517F, transparent 20%);
 }
+
+
 
 /* PROGRESS BAR */
 
