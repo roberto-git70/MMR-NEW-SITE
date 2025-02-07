@@ -1644,6 +1644,8 @@ body {
   color: #F76C60;
 }
 
+
+
 .features .icon-list span {
   font-size: 16px;
   color: color-mix(in srgb, (--default-color), transparent 20%);
@@ -1652,6 +1654,12 @@ body {
 .features .phone-wrap {
   position: absolute;
   right: 0;
+}
+
+@media (max-width: 997px) {
+  .phone-wrap {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
