@@ -179,6 +179,14 @@ h6 {
   --background-color: rgba(23, 40, 59, 0.9);
 }
 
+@media (max-width: 768px) {
+  section {
+      background-image: url('./assets/img/img-Header-5-mobile.png'); /* Usa un'immagine ottimizzata per mobile */
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
